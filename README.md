@@ -1,3 +1,7 @@
+# GSU Changes
+Removed a CSS import to avoid WEBPACK issues. As a workaround, we are loading CSS directly from our CDN - staticAssets ()
+
+
 # ng2-jsoneditor
 
 Simple angular 2 wrapper for [jsoneditor](https://github.com/josdejong/jsoneditor)
