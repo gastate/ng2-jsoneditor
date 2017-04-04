@@ -5,7 +5,7 @@ import { JsonEditorOptions } from './jsoneditor.options';
 declare var editor: any;
 var editor = require('jsoneditor');
 
-import 'jsoneditor/dist/jsoneditor.min.css';
+//import 'jsoneditor/dist/jsoneditor.min.css';
 
 @Component({
     selector: 'json-editor',
