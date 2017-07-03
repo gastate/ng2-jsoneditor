@@ -1,6 +1,8 @@
 # GSU Changes
 Removed a CSS import to avoid WEBPACK issues. As a workaround, we are loading CSS directly from our CDN - staticAssets ()
 
+Make underlying jsoneditor public so that we can manipulate the CODE editor as needed and detect validation errors.
+
 
 # ng2-jsoneditor
 
