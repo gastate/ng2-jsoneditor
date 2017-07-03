@@ -1,7 +1,7 @@
 import { ElementRef } from '@angular/core';
 export declare class JsonEditorComponent {
     private rootElement;
-    private editor;
+    public editor;
     private optionsDiffer;
     private dataDiffer;
     private options;
