@@ -61,6 +61,9 @@ var JsonEditorComponent = (function () {
     JsonEditorComponent.prototype.getText = function () {
         return this.editor.getText();
     };
+    JsonEditorComponent.prototype.getEditor = function() {
+        return this.editor;
+    }
     __decorate([
         core_1.Input('options'), 
         __metadata('design:type', jsoneditor_options_1.JsonEditorOptions)
